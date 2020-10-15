@@ -1,4 +1,4 @@
-# improting the necessary libraries make sure you have installed the selenium in python in advance
+# improting the necessary libraries make sure you have installed  selenium in python in advance
 from selenium import webdriver
 from selenium.webdriver.support.ui import Select
 import pandas as pd
@@ -26,7 +26,8 @@ It works, could be better
 Make sure to install chromedriver into the working directory
 
 '''
-"""it is the scraping function"""
+
+
 def State_Parser(t):
     """states contains the Australian states values"""
     states=["VIC1","QLD1","NSW1","SA1","TAS1"]
